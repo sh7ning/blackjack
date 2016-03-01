@@ -1,0 +1,30 @@
+<!Doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv=Content-Type content="text/html;charset=utf-8" />
+        <title>21点_扑克牌游戏</title>
+        <meta name="keywords" content="21点" />
+        <meta name="description" content="21点 BlackJack" />
+        <link rel="stylesheet" href="blackjack.css" />
+    </head>
+    <body>
+        <h1>:)</h1>亲，欢迎来玩21点~
+        <div class="hands">
+        <h2>庄家手牌<span class="dealer">0</span></h2>
+        <p class="hand dealer" id="dealer_hand"></p>
+        <h2>你的手牌<span class="user">0</span></h2>
+        <p class="hand user" id="user_hand"></p>
+        </div>
+        <p>
+        <button type="button" class="stand_btn vh">不抓了</button>
+        <button type="button" class="deal_btn">开始</button>
+        <button type="button" class="hit_btn vh">抓牌</button>
+        <span class="vh tips">1</span>
+        </p>
+        <p>游戏规则参考：<a href="http://baike.baidu.com/view/302185.htm#2" target="_blank">BlackJack</a></P>
+        <hr />
+        <p class="copyright">Copyright © 2011-2012 Tree6Bee.All Rights Reserved</p>
+        <script src="jquery-1.7.2.min.js"></script>
+        <script src="blackjack.js"></script>
+    </body>
+</html>
