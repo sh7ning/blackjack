@@ -6,6 +6,9 @@ if (isset($_GET['code']) && 'show' === $_GET['code']) {
 }
 /**
  * 21点扑克牌
+ * @copyright sh7ning 2015.3.30
+ * @author sh7ning
+ * @version 0.0.1
  */
 class BlackJackCards {
     const ACE = 1;
